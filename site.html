@@ -47,10 +47,17 @@
         label,
         button {
             font-weight: 500 !important;
+            padding-top: 0px !important
         }
         
         canvas {
             width: 100%
+        }
+        
+        select {
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            font-size: 14px !important;
+            padding: 15px !important;
         }
     </style>
 </head>
@@ -67,7 +74,7 @@
     <div class="container pb-5">
         <div class="forms mt-5 card">
             <div class="card-body">
-                <h5 class="card-title">Sélectionnez une date avec une heure puis cliquez sur le bouton "Afficher"</h5>
+                <h5 class="card-title">Sélectionnez une date avec une heure disponible dans nos données puis cliquez sur le bouton "Afficher"</h5>
                 <div class="input-group">
                     <label class="input-group-text" for="heure">Date et heure</label>
                     <select class="form-select" id="heure"></select>
